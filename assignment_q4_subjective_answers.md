@@ -1,6 +1,6 @@
 ### 4. Implementing Matrix Factorization [6 Marks]
 
-**a) Image Reconstruction-** 
+**a) Image Reconstruction:** 
 
 1. a rectangular block of 30X30 is assumed missing from the image.
    
