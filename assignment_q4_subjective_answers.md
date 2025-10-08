@@ -2,10 +2,12 @@
 
 **a) Image Reconstruction-** 
 
-- **[2 Marks]** Use an image and reconstruct the image in the following two cases, where your region is-
-    1. a rectangular block of 30X30 is assumed missing from the image.
+1. a rectangular block of 30X30 is assumed missing from the image.
+   
   Answer:
-    2. a random subset of 900 (30X30) pixels is missing from the image. 
+  
+2. a random subset of 900 (30X30) pixels is missing from the image.
+   
 Answer:
     Choose rank `r` yourself. Perform Gradient Descent till convergence, plot the selected regions, original and reconstructed images, Compute the following metrics:
     * RMSE on predicted v/s ground truth high resolution image
