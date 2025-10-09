@@ -1,11 +1,11 @@
-### 4. Implementing Matrix Factorization [6 Marks]
+## 4. Implementing Matrix Factorization [6 Marks]
 
 **Tools:** NumPy, PyTorch, Matplotlib, Pillow  
 **Implementation:** Gradient Descent (GD) and Alternating Least Squares (ALS)
 
 ---
 
-##  Part (a): Image Reconstruction
+###  Part (a): Image Reconstruction
 
 ### **Objective**
 Reconstruct missing regions in an image using low-rank Matrix Factorization.  
