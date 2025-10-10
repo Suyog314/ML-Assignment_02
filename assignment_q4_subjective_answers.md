@@ -60,9 +60,9 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 
 | Patch Type | Rank (r) | Visual Quality | Observation |
 |-------------|-----------|----------------|--------------|
-| 1-Colour Patch | 5 / 10 / 25 / 50 | *visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually* | Even rank 5 perfectly recovers flat areas; strong compression. |
-| 2–3 Colour Patch | 5 / 10 / 25 / 50 | *visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually* | Gradients improve with r ≥ 10; near-original at r ≥ 25. |
-| ≥5 Colour Patch | 5 / 10 / 25 / 50 | *visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually* | Low r causes blur; fine details restored for r ≥ 25. |
+| 1-Colour Patch | 5 / 10 / 25 / 50 | visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually | Even rank 5 perfectly recovers flat areas; strong compression. |
+| 2–3 Colour Patch | 5 / 10 / 25 / 50 | visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually | Gradients improve with r ≥ 10; near-original at r ≥ 25. |
+| ≥5 Colour Patch | 5 / 10 / 25 / 50 | visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually | Low r causes blur; fine details restored for r ≥ 25. |
 
 ---
 
