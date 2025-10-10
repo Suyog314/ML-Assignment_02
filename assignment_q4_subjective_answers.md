@@ -12,9 +12,6 @@ Two masking cases are explored:
 1. **Rectangular block (30×30)** missing.
 2. **Random subset of 900 pixels (≈30×30)** missing.
 
----
-
-### **Experimental Setup**
 - **Image used:** `multiple_colours.jpg`
 - **Rank (r):** 20  
 - **Methods:** Gradient Descent (GD) and Alternating Least Squares (ALS)  
