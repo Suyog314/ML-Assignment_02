@@ -13,14 +13,14 @@ Two masking cases are explored:
 - **Metrics:** RMSE and PSNR compared to the ground truth image.
 GD - 30x30 Block missing and Random 900 px missing
 <div style="display: flex;">
-<img src="outputs_q4/GD Reconstruction - Random 900 px Missing.png" alt="Image 1" width="270"/>
 <img src="outputs_q4/GD Reconstruction - Rectangular Block Missing.png" alt="Image 2" width="270"/>
+<img src="outputs_q4/GD Reconstruction - Random 900 px Missing.png" alt="Image 1" width="270"/>
 </div>
 
 ALS - 30x30 Block missing and Random 900 px missing
 <div style="display: flex;">
-<img src="outputs_q4/ALS Reconstruction - Random 900 px Missing r=20.png" alt="Image 1" width="270"/>
-<img src="outputs_q4/ALS Reconstruction - Rectangular Block Missing r=20.png" alt="Image 2" width="270"/>
+<img src="outputs_q4/ALS Reconstruction - Rectangular Block mission r =20.png" alt="Image 1" width="270"/>
+<img src="outputs_q4/ALS Reconstruction - Random 900 px missing r =20.png" alt="Image 2" width="270"/>
 </div>
 
 | Case | Method | Rank (r) | RMSE | PSNR (dB) | Observation |
