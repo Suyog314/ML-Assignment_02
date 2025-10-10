@@ -37,8 +37,6 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 - **Patch size:** 50×50  
 - **Ranks tested:** [5, 10, 25, 50]  
 
----
-
 
 | Patch Type | Rank (r) | Visual Quality | Observation |
 |-------------|-----------|----------------|--------------|
