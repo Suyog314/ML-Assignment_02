@@ -1,6 +1,4 @@
 ## 4. Implementing Matrix Factorization [6 Marks]
- 
-**Implementation:** Gradient Descent (GD) and Alternating Least Squares (ALS)
 
 ---
 
@@ -67,11 +65,6 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 - Matrix Factorization is a powerful unsupervised method for both **image inpainting** and **dimensionality reduction**.
 
 ---
-
-### Next Steps
-- Experiment with varying `r` values and regularization terms.  
-- Apply MF on grayscale images or noisy inputs for additional comparison.  
-- Explore SVD-based initialization for faster convergence.
 
 ---
 
