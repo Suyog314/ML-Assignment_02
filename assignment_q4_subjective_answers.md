@@ -1,7 +1,5 @@
 ## 4. Implementing Matrix Factorization [6 Marks]
 
----
-
 ###  Part (a): Image Reconstruction
 
 Reconstruct missing regions in an image using low-rank Matrix Factorization.  
