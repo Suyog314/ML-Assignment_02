@@ -6,7 +6,6 @@
 
 ###  Part (a): Image Reconstruction
 
-### **Objective**
 Reconstruct missing regions in an image using low-rank Matrix Factorization.  
 Two masking cases are explored:
 1. **Rectangular block (30×30)** missing.
@@ -17,9 +16,6 @@ Two masking cases are explored:
 - **Methods:** Gradient Descent (GD) and Alternating Least Squares (ALS)  
 - **Metrics:** RMSE and PSNR compared to the ground truth image.
 
----
-
-### **Results**
 
 | Case | Method | Rank (r) | RMSE | PSNR (dB) | Observation |
 |------|---------|----------|------|------------|--------------|
@@ -47,7 +43,6 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 
 ---
 
-### **Results**
 
 | Patch Type | Rank (r) | Visual Quality | Observation |
 |-------------|-----------|----------------|--------------|
