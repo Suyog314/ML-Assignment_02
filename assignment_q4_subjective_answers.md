@@ -1,6 +1,5 @@
 ## 4. Implementing Matrix Factorization [6 Marks]
-
-**Tools:** NumPy, PyTorch, Matplotlib, Pillow  
+ 
 **Implementation:** Gradient Descent (GD) and Alternating Least Squares (ALS)
 
 ---
@@ -44,15 +43,10 @@ Two masking cases are explored:
 
 ## Part (b): Data Compression
 
-### **Objective**
 Demonstrate how Matrix Factorization can compress image patches by approximating them with low-rank matrices.
 
 - **Patch size:** 50×50  
 - **Ranks tested:** [5, 10, 25, 50]  
-- **Patches chosen:**  
-  1. Single colour patch (`1colour.jpg`)  
-  2. 2–3 colour patch (`2-3_colours.jpg`)  
-  3. Multi-colour patch (`multiple_colours.jpg`)
 
 ---
 
