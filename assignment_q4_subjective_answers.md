@@ -11,7 +11,17 @@ Two masking cases are explored:
 - **Rank (r):** 20  
 - **Methods:** Gradient Descent (GD) and Alternating Least Squares (ALS)  
 - **Metrics:** RMSE and PSNR compared to the ground truth image.
+GD - 30x30 Block missing and Random 900 px missing
+<div style="display: flex;">
+<img src="outputs_q4/GD Reconstruction - Random 900 px Missing.png" alt="Image 1" width="270"/>
+<img src="outputs_q4/GD Reconstruction - Rectangular Block Missing.png" alt="Image 2" width="270"/>
+</div>
 
+ALS - 30x30 Block missing and Random 900 px missing
+<div style="display: flex;">
+<img src="outputs_q4/ALS Reconstruction - Random 900 px Missing.png" alt="Image 1" width="270"/>
+<img src="outputs_q4/ALS Reconstruction - Rectangular Block Missing.png" alt="Image 2" width="270"/>
+</div>
 
 | Case | Method | Rank (r) | RMSE | PSNR (dB) | Observation |
 |------|---------|----------|------|------------|--------------|
