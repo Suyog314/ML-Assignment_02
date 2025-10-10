@@ -27,10 +27,10 @@ Two masking cases are explored:
 
 | Case | Method | Rank (r) | RMSE | PSNR (dB) | Observation |
 |------|---------|----------|------|------------|--------------|
-| Rectangular Block Missing | Gradient Descent | 20 | *44.1398* | *15.23* | Missing block reconstructed smoothly; edges slightly blurred. |
-| Random 900 Pixels Missing | Gradient Descent | 20 | *44.1344* | *15.24* | Random loss easier to recover; overall clean reconstruction. |
-| Rectangular Block Missing | ALS (torch.linalg.lstsq) | 20 | *12.5128* | *26.18* | Similar quality, faster convergence, less noise. |
-| Random 900 Pixels Missing | ALS | 20 | *12.3094* | *26.33* | Best PSNR; sharp reconstruction with minimal artifacts. |
+| Rectangular Block Missing | Gradient Descent | 20 | *44.1398* | *15.23* | Missing block reconstructed smoothly; edges slightly blurred. Time taken: 165.8s |
+| Random 900 Pixels Missing | Gradient Descent | 20 | *44.1344* | *15.24* | Random loss easier to recover; overall clean reconstruction. Time taken:  170.5s |
+| Rectangular Block Missing | ALS (torch.linalg.lstsq) | 20 | *12.5128* | *26.18* | Similar quality, faster convergence, less noise. Time takne: 20.1s |
+| Random 900 Pixels Missing | ALS | 20 | *12.3094* | *26.33* | Best PSNR; sharp reconstruction with minimal artifacts. Time taken: 22.7s |
 
 ---
 
