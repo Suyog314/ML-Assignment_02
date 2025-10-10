@@ -20,7 +20,7 @@ Two masking cases are explored:
 | Rectangular Block Missing | ALS (torch.linalg.lstsq) | 20 | *12.5128* | *26.18* | Similar quality, faster convergence, less noise. Time takne: 20.1s |
 | Random 900 Pixels Missing | ALS | 20 | *12.3094* | *26.33* | Best PSNR; sharp reconstruction with minimal artifacts. Time taken: 22.7s |
 
----
+
 
 ### **Observations**
 - GD requires more iterations but is simpler to implement.  
@@ -46,7 +46,7 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 | 2–3 Colour Patch | 5 / 10 / 25 / 50 | visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually | Gradients improve with r ≥ 10; near-original at r ≥ 25. |
 | ≥5 Colour Patch | 5 / 10 / 25 / 50 | visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually | Low r causes blur; fine details restored for r ≥ 25. |
 
----
+
 
 ### **Observations**
 - Compression efficiency increases when colour variance is low.  
@@ -62,7 +62,4 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 - **GD** remains intuitive and easy to tune.  
 - Matrix Factorization is a powerful unsupervised method for both **image inpainting** and **dimensionality reduction**.
 
----
-
----
 
