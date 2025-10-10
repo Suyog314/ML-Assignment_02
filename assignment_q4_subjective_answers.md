@@ -27,10 +27,10 @@ Two masking cases are explored:
 
 | Case | Method | Rank (r) | RMSE | PSNR (dB) | Observation |
 |------|---------|----------|------|------------|--------------|
-| Rectangular Block Missing | Gradient Descent | 20 | *( value)* | *(  value)* | Missing block reconstructed smoothly; edges slightly blurred. |
-| Random 900 Pixels Missing | Gradient Descent | 20 | *( value)* | *( value)* | Random loss easier to recover; overall clean reconstruction. |
-| Rectangular Block Missing | ALS (torch.linalg.lstsq) | 20 | *( value)* | *( value)* | Similar quality, faster convergence, less noise. |
-| Random 900 Pixels Missing | ALS | 20 | *( value)* | *( value)* | Best PSNR; sharp reconstruction with minimal artifacts. |
+| Rectangular Block Missing | Gradient Descent | 20 | *44.1398* | *15.23* | Missing block reconstructed smoothly; edges slightly blurred. |
+| Random 900 Pixels Missing | Gradient Descent | 20 | *44.1344* | *15.24* | Random loss easier to recover; overall clean reconstruction. |
+| Rectangular Block Missing | ALS (torch.linalg.lstsq) | 20 | *12.5128* | *26.18* | Similar quality, faster convergence, less noise. |
+| Random 900 Pixels Missing | ALS | 20 | *12.3094* | *26.33* | Best PSNR; sharp reconstruction with minimal artifacts. |
 
 ---
 
@@ -60,9 +60,9 @@ Demonstrate how Matrix Factorization can compress image patches by approximating
 
 | Patch Type | Rank (r) | Visual Quality | Observation |
 |-------------|-----------|----------------|--------------|
-| 1-Colour Patch | 5 / 10 / 25 / 50 | *(describe)* | Even rank 5 perfectly recovers flat areas; strong compression. |
-| 2–3 Colour Patch | 5 / 10 / 25 / 50 | *(describe)* | Gradients improve with r ≥ 10; near-original at r ≥ 25. |
-| ≥5 Colour Patch | 5 / 10 / 25 / 50 | *(describe)* | Low r causes blur; fine details restored for r ≥ 25. |
+| 1-Colour Patch | 5 / 10 / 25 / 50 | *visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually* | Even rank 5 perfectly recovers flat areas; strong compression. |
+| 2–3 Colour Patch | 5 / 10 / 25 / 50 | *visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually* | Gradients improve with r ≥ 10; near-original at r ≥ 25. |
+| ≥5 Colour Patch | 5 / 10 / 25 / 50 | *visible blur, loss of details/ smooth colours, minor distortion/ near original, crisp reconstruction/ identical to original visually* | Low r causes blur; fine details restored for r ≥ 25. |
 
 ---
 
