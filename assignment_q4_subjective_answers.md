@@ -10,25 +10,25 @@ Two masking cases are explored:  30x30 Rectangular Block missing and Random 900 
 - **Methods:** Gradient Descent (GD) and Alternating Least Squares (ALS)  
 - **Metrics:** RMSE and PSNR compared to the ground truth image.
 
-Gradient Descent - **Rectangular block (30×30)** missing.
+#### Gradient Descent - **Rectangular block (30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/GD Reconstruction - Rectangular Block Missing.png" alt="Image 2" width="1200"/>
 </div>
 --- 
 
-Gradient Descent - **Random subset of 900 pixels (≈30×30)** missing.
+#### Gradient Descent - **Random subset of 900 pixels (≈30×30)** missing.
 <div style="display:flex;">
   <img src="outputs_q4/GD Reconstruction - Random 900 px Missing.png" alt="Image 1" width="1200"/>
 </div>
 ---
 
-ALS - **Rectangular block (30×30)** missing.
+#### ALS - **Rectangular block (30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/ALS Reconstruction - Rectangular Block missing.png" alt="Image 1" width="1200"/>
 </div>
 ---
 
-ALS - **Random subset of 900 pixels (≈30×30)** missing.
+#### ALS - **Random subset of 900 pixels (≈30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/ALS Reconstruction - Random 900 px missing.png" alt="Image 2" width="1200"/>
 </div>
