@@ -14,21 +14,25 @@ Gradient Descent - **Rectangular block (30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/GD Reconstruction - Rectangular Block Missing.png" alt="Image 2" width="1200"/>
 </div>
+--- 
 
 Gradient Descent - **Random subset of 900 pixels (≈30×30)** missing.
 <div style="display:flex;">
   <img src="outputs_q4/GD Reconstruction - Random 900 px Missing.png" alt="Image 1" width="1200"/>
 </div>
+---
 
 ALS - **Rectangular block (30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/ALS Reconstruction - Rectangular Block missing.png" alt="Image 1" width="1200"/>
 </div>
+---
 
 ALS - **Random subset of 900 pixels (≈30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/ALS Reconstruction - Random 900 px missing.png" alt="Image 2" width="1200"/>
 </div>
+---
 
 | Case | Method | Rank (r) | RMSE | PSNR (dB) | Observation |
 |------|---------|----------|------|------------|--------------|
