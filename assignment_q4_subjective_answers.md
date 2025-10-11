@@ -39,7 +39,7 @@ Two masking cases are explored:  30x30 Rectangular Block missing and Random 900 
 |------|---------|----------|------|------------|--------------|
 | Rectangular Block Missing | Gradient Descent | 30 | *0.0675* | *23.42* | Missing block reconstructed smoothly; edges slightly blurred. |
 | Random 900 Pixels Missing | Gradient Descent | 30 | *0.0673* | *23.44* | Random loss easier to recover; overall clean reconstruction. Time taken: 60.98 s |
-| Rectangular Block Missing | ALS (torch.linalg.lstsq) | 30 | *23.42* | *26.18* | Similar quality, faster convergence, less noise.  |
+| Rectangular Block Missing | ALS (torch.linalg.lstsq) | 30 | *0.0675* | *23.42* | Similar quality, faster convergence, less noise.  |
 | Random 900 Pixels Missing | ALS | 30 | *0.0673* | *23.44* | Best PSNR; sharp reconstruction with minimal artifacts. Time taken: 76.18 s |
 
 
