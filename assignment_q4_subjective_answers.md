@@ -5,28 +5,27 @@
 Reconstruct missing regions in an image using low-rank Matrix Factorization.  
 Two masking cases are explored:  30x30 Rectangular Block missing and Random 900 px missing
 
-- **Image used:** [The Ambassadors - Hoblein (Wikipedia)](https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein)#/media/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg)
+- **Image used:** [The Ambassadors (Hoblein)](https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein)#/media/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg) from Wikipedia
 - **Rank (r):** 30 
 - **Methods:** Gradient Descent (GD) and Alternating Least Squares (ALS)  
 - **Metrics:** RMSE and PSNR compared to the ground truth image.
 
-Gradient Descent - 1. **Rectangular block (30×30)** missing.
+Gradient Descent - **Rectangular block (30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/GD Reconstruction - Rectangular Block Missing.png" alt="Image 2" width="1200"/>
-
 </div>
 
-Gradient Descent - 2. **Random subset of 900 pixels (≈30×30)** missing.
+Gradient Descent - **Random subset of 900 pixels (≈30×30)** missing.
 <div style="display:flex;">
   <img src="outputs_q4/GD Reconstruction - Random 900 px Missing.png" alt="Image 1" width="1200"/>
 </div>
 
-ALS - 1. **Rectangular block (30×30)** missing.
+ALS - **Rectangular block (30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/ALS Reconstruction - Rectangular Block missing.png" alt="Image 1" width="1200"/>
-
 </div>
-ALS - 2. **Random subset of 900 pixels (≈30×30)** missing.
+
+ALS - **Random subset of 900 pixels (≈30×30)** missing.
 <div style="display: flex;">
 <img src="outputs_q4/ALS Reconstruction - Random 900 px missing.png" alt="Image 2" width="1200"/>
 </div>
